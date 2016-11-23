@@ -2,7 +2,7 @@
 
 http://docs.scala-lang.org/tutorials/tour/currying
 
-```
+```scala
 object CurryTest extends App {
   def filter(xs: List[Int], p: Int => Boolean): List[Int] =
     if (xs.isEmpty) xs
@@ -17,7 +17,7 @@ object CurryTest extends App {
 
 
 
-```
+```scala
 object Curry extends App {
   def filter(xs: List[Int], p: Int => Boolean): List[Int] =
     if (xs.isEmpty) xs
